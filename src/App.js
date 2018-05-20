@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      	<img src={gold_design} alt="Engagement" />
+      	<div className="img_design"><img src={gold_design} alt="Engagement" /></div>
       	<div className="invite-text">YOU ARE CORDIALLY INVITED <br />TO CELEBRATE THE ENGAGEMENT OF</div>
       	<div className="names-box">
       	<div className="names"><span className="big_name">O</span>MKANT <br /> TO <br /><span className="big_name">A</span>RCHANA</div>
