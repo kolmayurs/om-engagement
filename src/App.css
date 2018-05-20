@@ -42,6 +42,10 @@
   font-size: 44px;
 }
 
+.img_design{
+  display: block;
+}
+
 @media screen and (max-width: 480px) {
   .App {
     height: calc(100vh - 20px);
