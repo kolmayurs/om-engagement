@@ -18,7 +18,6 @@
   width: 100%;
   max-width: 450px;
   padding: 15px 0px;
-  min-height: 95px;
 }
 
 .invite-text{
@@ -44,7 +43,7 @@
 
 @media screen and (max-width: 480px) {
   .App {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 20px);
   }
 
   .App img{
