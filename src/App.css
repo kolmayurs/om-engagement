@@ -40,6 +40,33 @@
 .big_name{
   font-size: 44px;
 }
+
+@media screen and (max-width: 480px) {
+  .App {
+    height: calc(100vh - 20px);
+  }
+
+  .App img{
+    width: 95%;
+  padding: 10px 5px 5px 5px;
+}
+.invite-text{
+      padding: 5px;
+      font-size: 18px;
+      line-height: 24px;
+}
+
+.names{
+  padding: 5px;
+  font-size: 28px;
+      line-height: 34px;
+  letter-spacing: 1px;
+}
+.big_name{
+  font-size: 34px;
+}
+
+}
 .peacock {
   position: fixed;
   z-index: 2;
@@ -47,6 +74,7 @@
   right: 20px;
   display: block;
   width: 20%;
+  min-width: 100px;
   margin: calc(50vh - 16%) auto 0;
 }
 
