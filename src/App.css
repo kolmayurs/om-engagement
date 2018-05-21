@@ -11,9 +11,7 @@
   height: calc(100vh - 50px);
 
 }
-.og_img{
-  display: none;
-}
+
 .App img{
   position: relative;
   display: block;
@@ -23,7 +21,9 @@
   padding: 15px 0px;
 
 }
-
+.og_img{
+  display: none !important;
+}
 .invite-text{
       font-family: "Times New Roman", Times, serif;
       padding: 10px;
