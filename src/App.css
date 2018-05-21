@@ -11,7 +11,9 @@
   height: calc(100vh - 50px);
 
 }
-
+.og_img{
+  display: none;
+}
 .App img{
   position: relative;
   display: block;
