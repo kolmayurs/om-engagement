@@ -79,8 +79,7 @@
   font-size: 34px;
 }
 .peacock {
-  bottom: 10px !important;
-  right: 10px !important;
+  display: none !important;
 }
 
 
@@ -90,7 +89,7 @@
 .peacock {
   position: absolute;
   z-index: 2;
-  bottom: 40px;
+  bottom: 10px;
   right: 20px;
   display: block;
   width: 20%;

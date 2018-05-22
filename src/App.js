@@ -16,7 +16,7 @@ class App extends Component {
         <div className="date">SUNDAY, JUNE 3<sup>RD</sup>, 12<sup>PM</sup></div>
         <div className="address">AT Raibai Niwas, <br />Above Dr. Sangani Hospital, <br />Ambedkar Chowk, Mohone, Ambivali, <br />Taluka Kalyan, District Thane, <br />Pin Code: 421102</div>
         <div className="map"><a href="https://www.google.com/maps/place/19%C2%B015'50.2%22N+73%C2%B010'24.1%22E/@19.263797,73.1737944,19.25z/data=!4m5!3m4!1s0x0:0x0!8m2!3d19.2639444!4d73.1733611" target="_blank"><img src={google_map} alt="Google Map" /></a></div>
-      	<div className="img_design1"><img src={gold_design1} alt="Engagement" /></div>
+      	<div className="img_design"><img src={gold_design1} alt="Engagement" /></div>
         </div>
       	<Peacock />
       </div>
