@@ -62,7 +62,7 @@
     height: calc(100vh - 20px);
   }
 
-  .img_design img{
+  .img_design img, .img_design1 img{
     width: 95%;
   padding: 10px 5px 5px 5px;
   display: block;
@@ -83,8 +83,8 @@
   font-size: 34px;
 }
 .peacock {
-  bottom: 20px;
-  right: 10px;
+  bottom: 10px !important;
+  right: 10px !important;
 }
 
 
