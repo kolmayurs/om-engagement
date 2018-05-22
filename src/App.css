@@ -3,7 +3,6 @@
   color:  #D8A811; /*if no support for background-clip*/
   
   font-size: 30px;
-  height: calc(100vh - 50px);
 
 }
 
@@ -58,9 +57,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  .App {
-    height: calc(100vh - 20px);
-  }
 
   .img_design img, .img_design1 img{
     width: 95%;
@@ -98,7 +94,7 @@
   right: 20px;
   display: block;
   width: 20%;
-  min-width: 200px;
+  min-width: 120px;
   margin: calc(50vh - 16%) auto 0;
 }
 
