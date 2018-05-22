@@ -56,6 +56,19 @@
   display: block; 
 }
 
+.map{
+  padding: 10px;
+}
+
+.map a{
+  text-decoration: none;
+}
+
+.map a img{
+  width: 64px;
+  height: 64px;
+}
+
 @media screen and (max-width: 480px) {
 
   .img_design img, .img_design1 img{
@@ -66,7 +79,7 @@
 
 .img_design1 img{
     width: 95%;
-  padding: 0px 5px 10px 5px;
+  padding: 0px 5px 10px 5px !important;
   display: block;
 }
 .invite-text, .date, .address{
