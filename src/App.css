@@ -7,7 +7,7 @@
 
 }
 
-.App img{
+.img_design img{
   position: relative;
   display: block;
   margin: 0 auto;
@@ -15,6 +15,17 @@
   max-width: 450px;
   padding: 15px 0px;
   min-height: 85px; 
+
+}
+
+.img_design1 img{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 5px 0px 15px 0px;
+  min-height: 75px; 
 
 }
 .og_img{
@@ -51,7 +62,7 @@
     height: calc(100vh - 20px);
   }
 
-  .App img{
+  .img_design img{
     width: 95%;
   padding: 10px 5px 5px 5px;
   display: block;
@@ -71,10 +82,17 @@
 .big_name{
   font-size: 34px;
 }
+.peacock {
+  bottom: 20px;
+  right: 10px;
+}
+
 
 }
+
+
 .peacock {
-  position: fixed;
+  position: absolute;
   z-index: 2;
   bottom: 40px;
   right: 20px;
