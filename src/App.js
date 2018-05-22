@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import gold_design from './img/gold_design.png';
+import gold_design from './img/gold_design1.png';
 import og_img from './img/eng.png';
 import Peacock from './Peacock'; 
 class App extends Component {
@@ -11,6 +11,8 @@ class App extends Component {
       	<div className="invite-text">YOU ARE CORDIALLY INVITED <br />TO CELEBRATE THE ENGAGEMENT OF</div>
       	<div className="names-box">
       	<div className="names"><span className="big_name">O</span>MKANT <br /> TO <br /><span className="big_name">A</span>RCHANA</div>
+        <div className="date">SUNDAY, JUNE 3<sup>RD</sup>, 12<sup>PM</sup></div>
+        <div className="address">AT Raibai Niwas, <br />Above Dr. Sangani Hospital, <br />Ambedkar Chowk, Mohone, Ambivali, <br />Taluka Kalyan, District Thane, <br />Pin Code: 421102</div>
       	</div>
       	<Peacock />
 
