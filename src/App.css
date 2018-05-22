@@ -63,6 +63,12 @@
   padding: 10px 5px 5px 5px;
   display: block;
 }
+
+.img_design1 img{
+    width: 95%;
+  padding: 0px 5px 10px 5px;
+  display: block;
+}
 .invite-text, .date, .address{
       padding: 5px;
       font-size: 18px;
